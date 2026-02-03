@@ -22,3 +22,5 @@ print(f"Дело под номером {deal_index}: {deals[deal_index]}")
 books = ["Бенди чернильная машина, кошмары оживают", "Бенди чернильная машина, бенди потеряный", "Хроники Нарнии", "Сказки"]
 for book in books:
     print(book)
+length = len(books)
+print(length)
