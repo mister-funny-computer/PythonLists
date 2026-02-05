@@ -24,3 +24,6 @@ for book in books:
     print(book)
 length = len(books)
 print(length)
+
+for i in range(length):
+    print(f"{i + 1}. {books[i]}")
